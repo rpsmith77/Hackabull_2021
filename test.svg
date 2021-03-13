@@ -2,6 +2,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000pt" height="1000pt" viewBox="0 0 1000 1000" version="1.1">
 <g id="surface1">
 <rect x="0" y="0" width="1000" height="1000" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
-<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(40%,100%,40%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.6 0.5 C 0.6 0.555227 0.555227 0.6 0.5 0.6 C 0.444773 0.6 0.4 0.555227 0.4 0.5 C 0.4 0.444773 0.444773 0.4 0.5 0.4 C 0.555227 0.4 0.6 0.444773 0.6 0.5 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,69.019608%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.7 0.4 C 0.7 0.510457 0.610457 0.6 0.5 0.6 C 0.389543 0.6 0.3 0.510457 0.3 0.4 C 0.3 0.289543 0.389543 0.2 0.5 0.2 C 0.610457 0.2 0.7 0.289543 0.7 0.4 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(86.27451%,14.901961%,49.803922%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.976516 0.937477 L 0.445227 0.395215 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(39.215686%,56.078431%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.156344 0.573457 L 0.76393 0.835359 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(99.607843%,38.039216%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.223961 0.26402 L 0.975445 0.810332 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(86.27451%,14.901961%,49.803922%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.506418 0.640484 L 0.659293 0.530086 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,69.019608%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.925586 0.408313 L 0.165992 0.886297 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(99.607843%,38.039216%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.380523 0.452164 L 0.717742 0.361223 " transform="matrix(1000,0,0,1000,0,0)"/>
+<path style="fill:none;stroke-width:0.004;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(99.607843%,38.039216%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0.136977 0.471531 L 0.877863 0.369852 " transform="matrix(1000,0,0,1000,0,0)"/>
 </g>
 </svg>
