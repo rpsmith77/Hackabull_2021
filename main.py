@@ -8,16 +8,16 @@
 
 import random
 from Context import setup, export
-from Shapes import background, random_shape
+from Shapes import random_shape, random_background
 
 
 # Perform Shapes.py's actions
 def draw():
-    # color background white
-    background(1, 1, 1, 1)
+    # get random background ( 1/3 white, 1/3 black, 1/3 color-blind-friendly color)
+    random_background()
 
     # create 20 to 50 random shapes
-    for i in range(random.randint(20, 50)):
+    for i in range(random.randint(10, 30)):
         random_shape()
 
 

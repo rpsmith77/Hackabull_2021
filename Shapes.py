@@ -72,10 +72,11 @@ class Triangle:
 
 # curved line with a starting point, an endpoint, and point the line goes to between start and end
 class Curved_Line(Line):
-    def __init__(self, x1, y1, x2, y2, x3, y3):
+    def __init__(self, x1, y1, x2, y2, x3, y3, draw=True):
         self.curve_point = Point([x3, y3])
-        super().__init__(x1, y1, x2, y2)
-        self.draw()
+        super().__init__(x1, y1, x2, y2, False)
+        if draw:
+            self.draw()
 
     def draw(self):
         self.context.move_to(self.point1.x(), self.point1.y())
@@ -90,6 +91,12 @@ class Curved_Line(Line):
 def background(r, g, b, a):
     Canvas.Context.context.set_source_rgba(r, g, b, a)
     Canvas.Context.context.paint()
+
+
+# get random choice non-black or white, color-blind-friendly colored background
+def background_random_color():
+    rand_color = choose_random_color(ibm_color_blind_palette())
+    background(rand_color[0], rand_color[1], rand_color[2], 1)
 
 
 # set stroke color
@@ -146,7 +153,9 @@ def create_circle():
 
 # random triangle
 def create_triangle():
-    Triangle(get_random_int(), get_random_int(), get_random_int(), get_random_int(), get_random_int(), get_random_int())
+    Triangle(get_random_int() * 2 * random.random(), get_random_int() * 2 * random.random(),
+             get_random_int() * 2 * random.random(), get_random_int() * 2 * random.random(),
+             get_random_int() * 2 * random.random(), get_random_int() * 2 * random.random())
 
 
 # line between 2 points (random, 0) , (random, 1000)
@@ -166,7 +175,7 @@ def line_segment():
 
 # 33.3% chance of a top to bottom line, left to right line, and a line segment
 def create_random_line():
-    r = random.randint(1, 3)
+    r = random.randint(1, 4)
     if r == 1:
         line_segment()
     elif r == 2:
@@ -175,10 +184,10 @@ def create_random_line():
         line_top_to_bottom()
 
 
-# create a random shape 16.7% chance to be a curved line, 16.7% chance to be a circle, 16.7% chance of being a
-# triangle, 50%  chance to be a random type of straight line
+# create a random shape 20% chance to be a curved line, 20% chance to be a circle, 20% chance of being a
+# triangle, 40%  chance to be a random type of straight line
 def random_shape():
-    r = random.randint(1, 6)
+    r = random.randint(1, 5)
     if r == 1:
         create_curved_line()
     elif r == 2:
@@ -187,3 +196,14 @@ def random_shape():
         create_triangle()
     else:
         create_random_line()
+
+
+# random background color
+def random_background():
+    r = random.randint(1, 3)
+    if r == 1:
+        background_random_color()
+    elif r == 2:
+        background(1, 1, 1, 1)
+    else:
+        background(0, 0, 0, 1)

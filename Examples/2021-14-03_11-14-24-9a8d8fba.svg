@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000pt" height="1000pt" viewBox="0 0 1000 1000" version="1.1">
+<g id="surface1">
+<rect x="0" y="0" width="1000" height="1000" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<path style="fill:none;stroke-width:4.710728;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(86.27451%,14.901961%,49.803922%);stroke-opacity:1;stroke-miterlimit:10;" d="M 850 87 C 850 87 110 194 2 962 "/>
+<path style="fill:none;stroke-width:1.405033;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,69.019608%,0%);stroke-opacity:0.77016;stroke-miterlimit:10;" d="M 949 23 C 949 23 911 976 643 801 "/>
+<path style="fill:none;stroke-width:1.770153;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(99.607843%,38.039216%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 823 0 L 935 1000 "/>
+<path style="fill:none;stroke-width:7.535451;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(86.27451%,14.901961%,49.803922%);stroke-opacity:1;stroke-miterlimit:10;" d="M 314 791 C 314 791 995 670 914 358 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,69.019608%,0%);fill-opacity:1;" d="M 94.132812 501.347656 L 731.207031 740.210938 L 752.695312 343.070312 L 94.132812 501.347656 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(99.607843%,38.039216%,0%);fill-opacity:0.689317;" d="M 1072.878906 192.238281 L 1272.203125 147.542969 L 144.636719 96.1875 L 1072.878906 192.238281 "/>
+<path style="fill:none;stroke-width:2.7408;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,69.019608%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 272 0 L 964 1000 "/>
+<path style="fill:none;stroke-width:8.838524;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(99.607843%,38.039216%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 516.152344 331 C 516.152344 380.238281 476.238281 420.152344 427 420.152344 C 377.761719 420.152344 337.847656 380.238281 337.847656 331 C 337.847656 281.761719 377.761719 241.847656 427 241.847656 C 476.238281 241.847656 516.152344 281.761719 516.152344 331 "/>
+<path style="fill:none;stroke-width:7.93228;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(39.215686%,56.078431%,100%);stroke-opacity:0.424671;stroke-miterlimit:10;" d="M 670.910156 607 C 670.910156 727.347656 573.347656 824.910156 453 824.910156 C 332.652344 824.910156 235.089844 727.347656 235.089844 607 C 235.089844 486.652344 332.652344 389.089844 453 389.089844 C 573.347656 389.089844 670.910156 486.652344 670.910156 607 "/>
+<path style="fill:none;stroke-width:6.082739;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(47.058824%,36.862745%,94.117647%);stroke-opacity:0.174513;stroke-miterlimit:10;" d="M 217 347 L 813 859 "/>
+<path style="fill:none;stroke-width:5.302432;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(47.058824%,36.862745%,94.117647%);stroke-opacity:1;stroke-miterlimit:10;" d="M 31 0 L 854 1000 "/>
+<path style="fill:none;stroke-width:2.813835;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(86.27451%,14.901961%,49.803922%);stroke-opacity:1;stroke-miterlimit:10;" d="M 867.433594 967 C 867.433594 1013.632812 829.632812 1051.433594 783 1051.433594 C 736.367188 1051.433594 698.566406 1013.632812 698.566406 967 C 698.566406 920.367188 736.367188 882.566406 783 882.566406 C 829.632812 882.566406 867.433594 920.367188 867.433594 967 "/>
+<path style="fill:none;stroke-width:1.928912;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,69.019608%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 0 201 L 1000 595 "/>
+<path style="fill:none;stroke-width:5.751786;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(86.27451%,14.901961%,49.803922%);stroke-opacity:1;stroke-miterlimit:10;" d="M 81 387 C 81 387 151 781 729 814 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,69.019608%,0%);fill-opacity:0.629034;" d="M 221.046875 645 C 221.046875 705.226562 172.226562 754.046875 112 754.046875 C 51.773438 754.046875 2.953125 705.226562 2.953125 645 C 2.953125 584.773438 51.773438 535.953125 112 535.953125 C 172.226562 535.953125 221.046875 584.773438 221.046875 645 "/>
+</g>
+</svg>
