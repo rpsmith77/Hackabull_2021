@@ -4,7 +4,7 @@
 import math
 import random
 import Canvas
-from Colors import ibm_color_blind_palate, choose_random_color
+from Colors import ibm_color_blind_palette, choose_random_color
 from Point import Point
 
 
@@ -26,7 +26,7 @@ class Line:
         self.context.move_to(self.point1.x(), self.point1.y())
         self.context.line_to(self.point2.x(), self.point2.y())
         line_width(10 * random.random())
-        random_color(ibm_color_blind_palate())
+        random_color(ibm_color_blind_palette())
         stroke()
 
 
@@ -44,7 +44,7 @@ class Circle:
     def draw(self):
         self.context.arc(self.point.x(), self.point.y(), self.radius, 0, 2 * math.pi)
         line_width(10 * random.random())
-        random_color(ibm_color_blind_palate())
+        random_color(ibm_color_blind_palette())
         if random.randint(1, 2) % 2 == 0:
             fill()
         stroke()
@@ -61,7 +61,7 @@ class Curved_Line(Line):
         self.context.curve_to(self.point1.x(), self.point1.y(), self.point2.x(), self.point2.y(),
                               self.curve_point.x(), self.curve_point.y())
         line_width(10 * random.random())
-        random_color(ibm_color_blind_palate())
+        random_color(ibm_color_blind_palette())
         stroke()
 
 

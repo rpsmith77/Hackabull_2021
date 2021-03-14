@@ -5,7 +5,7 @@ import random
 # Color blind friendly color palate
 # https://davidmathlogic.com/colorblind/#%23648FFF-%23785EF0-%23DC267F-%23FE6100-%23FFB000
 # full palate can be found here: https://coolors.co/648fff-785ef0-dc267f-fe6100-ffb000
-def ibm_color_blind_palate():
+def ibm_color_blind_palette():
     CORNFLOWER_BLUE = (100, 143, 255)
     MEDIUM_SLATE_BLUE = (120, 94, 240)
     DEEP_CERISE = (220, 38, 127)
