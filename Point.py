@@ -1,6 +1,7 @@
 import numpy as np
 
 
+# A point in space represented by a numpy array
 # cite: https://numpy.org/doc/1.18/user/basics.subclassing.html
 class Point(np.ndarray):
     def __new__(cls, input_array):
