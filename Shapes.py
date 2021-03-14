@@ -142,8 +142,17 @@ def get_random_int():
 
 # completely random points
 def create_curved_line():
-    Curved_Line(get_random_int(), get_random_int(), get_random_int(), get_random_int(), get_random_int(),
-                get_random_int())
+    r = random.randint(1, 4)
+
+    if r == 1:  # curved line left to right
+        Curved_Line(get_random_int(), 0, get_random_int(), 1000, get_random_int(), get_random_int())
+
+    elif r == 2:  # curved line top to bottom
+        Curved_Line(0, get_random_int(), get_random_int(), get_random_int(), get_random_int(), 1000)
+
+    else:  # random curved line segment
+        Curved_Line(get_random_int(), get_random_int(), get_random_int(), get_random_int(), get_random_int(),
+                    get_random_int())
 
 
 # random starting point, 0 < radius <= 400
@@ -200,10 +209,12 @@ def random_shape():
 
 # random background color
 def random_background():
-    r = random.randint(1, 3)
-    if r == 1:
-        background_random_color()
-    elif r == 2:
+    r = random.randint(1, 4)
+    if r == 1:  # transparent
+        background(0, 0, 0, 0)
+    elif r == 2:  # white
         background(1, 1, 1, 1)
-    else:
+    elif r == 3:  # black
         background(0, 0, 0, 1)
+    else:  # random color
+        background_random_color()
