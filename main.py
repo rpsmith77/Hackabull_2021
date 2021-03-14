@@ -6,17 +6,10 @@
     __author__ = Ryan Smith
 """
 
-import cairo
-import math
 import random
-import numpy as np
+import cairo
 import Canvas
-from Colors import ibm_color_blind_pallate, choose_random_color
-
-
-def random_color(colors, context):
-    rand_color = choose_random_color(colors)
-    context.set_source_rgba(rand_color[0], rand_color[1], rand_color[2], 1)
+from Colors import ibm_color_blind_palatte
 
 
 def main():
@@ -29,7 +22,7 @@ def main():
         context.paint()
 
         Canvas.Circle(500, 400, 200, context)
-        random_color(ibm_color_blind_pallate(), context)
+        Canvas.random_color(ibm_color_blind_palatte(), context)
         Canvas.stroke(context)
 
         lines = []
@@ -37,12 +30,8 @@ def main():
             lines.append(Canvas.Line(random.random(), random.random(), random.random(), random.random(), context))
 
         for line in lines:
-            context.save()
-            context.set_line_width(0.004)
-            random_color(ibm_color_blind_pallate(), context)
             line.draw()
             Canvas.stroke(context)
-            context.restore()
         context.stroke()
 
 
