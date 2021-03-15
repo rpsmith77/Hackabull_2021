@@ -6,8 +6,8 @@ I was inspired by 90's geometric art. The images created feel adjacent to [Memph
 [![](https://img.youtube.com/vi/FX-NRC7EpV4/0.jpg)](https://www.youtube.com/watch?v=FX-NRC7EpV4 "Demo Video")
 
 ## Built With
-Python3
-[Pycairo](https://www.cairographics.org/pycairo/)
+Python3<br>
+[Pycairo](https://www.cairographics.org/pycairo/)<br>
 PyCharm
 
 ## Author
