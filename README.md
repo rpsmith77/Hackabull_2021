@@ -4,6 +4,9 @@ Art should be accessible. [Approximetly 5%](https://www.colourblindawareness.org
 I was inspired by 90's geometric art. The images created feel adjacent to [Memphis Group patterns.](https://www.creativebloq.com/inspiration/10-iconic-examples-of-memphis-design) I was also inspired when I read [this medium article](https://towardsdatascience.com/is-generative-art-for-you-b1e1499945e6) about generative art, earlier this month.
 ## Examples
 <img src="https://github.com/rpsmith77/Hackabull_2021/blob/master/Examples/Transparent%20Background/2021-14-03_11-30-19-ccd719c4.svg">
+<img src="https://github.com/rpsmith77/Hackabull_2021/blob/master/Examples/Color%20Background/2021-14-03_11-34-57-b0ddc8e3.svg">
+<img src="https://github.com/rpsmith77/Hackabull_2021/blob/master/Examples/White%20Background/2021-14-03_11-30-56-041a0509.svg">
+<img src="https://github.com/rpsmith77/Hackabull_2021/blob/master/Examples/Black%20Background/2021-14-03_11-31-05-02dd717e.svg">
 ## Demonstration
 [![](https://img.youtube.com/vi/FX-NRC7EpV4/0.jpg)](https://www.youtube.com/watch?v=FX-NRC7EpV4 "Demo Video")
 
