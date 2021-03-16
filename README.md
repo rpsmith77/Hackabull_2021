@@ -23,5 +23,5 @@ Ryan Smith
 This [github repo](https://github.com/JakobGlock/Generative-Art) for showing me how to use Pycairo across multiple classes and files and use Pycairo to export .svg files with unique names
 
 ## Key Programming Concepts Utilized
-Object-Oriented Programming
+Object-Oriented Programming<br>
 Vector graphics
