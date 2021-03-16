@@ -87,6 +87,29 @@ class Curved_Line(Line):
         stroke()
 
 
+# create random shape with num_point number of points
+class Polygon:
+    def __init__(self, num_point, draw=True):
+        self.context = Canvas.Context.context
+        if num_point < 3:
+            num_point = 3
+        self.num_point = num_point
+        self.points = []
+        for i in range(num_point):
+            self.points.append(Point([get_random_int(), get_random_int()]))
+        if draw:
+            self.draw()
+
+    def draw(self):
+        self.context.move_to(self.points[0].x(), self.points[0].y())
+        for i in range(1, len(self.points)):
+            self.context.line_to(self.points[i].x(), self.points[i].y())
+        self.context.line_to(self.points[0].x(), self.points[0].y())
+        line_width(10 * random.random())
+        random_color(ibm_color_blind_palette())
+        stroke()
+
+
 # set background color
 def background(r, g, b, a):
     Canvas.Context.context.set_source_rgba(r, g, b, a)
