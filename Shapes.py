@@ -91,8 +91,8 @@ class Curved_Line(Line):
 class Polygon:
     def __init__(self, num_point, draw=True):
         self.context = Canvas.Context.context
-        if num_point < 3:
-            num_point = 3
+        if num_point < 4:
+            num_point = 4
         self.num_point = num_point
         self.points = []
         for i in range(num_point):
@@ -107,6 +107,8 @@ class Polygon:
         self.context.line_to(self.points[0].x(), self.points[0].y())
         line_width(10 * random.random())
         random_color(ibm_color_blind_palette())
+        if random.randint(1, 2) % 2 == 0:
+            fill()
         stroke()
 
 
@@ -190,6 +192,10 @@ def create_triangle():
              get_random_int() * 2 * random.random(), get_random_int() * 2 * random.random())
 
 
+def create_polygon():
+    Polygon(random.randint(4, 12))
+
+
 # line between 2 points (random, 0) , (random, 1000)
 def line_top_to_bottom():
     Line(get_random_int(), 0, get_random_int(), 1000)
@@ -216,16 +222,17 @@ def create_random_line():
         line_top_to_bottom()
 
 
-# create a random shape 20% chance to be a curved line, 20% chance to be a circle, 20% chance of being a
-# triangle, 40%  chance to be a random type of straight line
+# create a random shape. Chooses between curved lines, circles, triangles, other polygons, and straight lines
 def random_shape():
-    r = random.randint(1, 5)
+    r = random.randint(1, 6)
     if r == 1:
         create_curved_line()
     elif r == 2:
         create_circle()
     elif r == 3:
         create_triangle()
+    elif r == 4:
+        create_polygon()
     else:
         create_random_line()
 
