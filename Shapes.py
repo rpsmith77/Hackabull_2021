@@ -96,7 +96,7 @@ class Polygon:
         self.num_point = num_point
         self.points = []
         for i in range(num_point):
-            self.points.append(Point([get_random_int(), get_random_int()]))
+            self.points.append(Point([random.randint(-100, 1100), random.randint(-100, 1100)]))
         if draw:
             self.draw()
 
@@ -107,7 +107,7 @@ class Polygon:
         self.context.line_to(self.points[0].x(), self.points[0].y())
         line_width(10 * random.random())
         random_color(ibm_color_blind_palette())
-        if random.randint(1, 2) % 2 == 0:
+        if random.randint(1, 4) == 1:
             fill()
         stroke()
 
@@ -193,7 +193,7 @@ def create_triangle():
 
 
 def create_polygon():
-    Polygon(random.randint(4, 12))
+    Polygon(random.randint(4, 8))
 
 
 # line between 2 points (random, 0) , (random, 1000)
@@ -224,15 +224,15 @@ def create_random_line():
 
 # create a random shape. Chooses between curved lines, circles, triangles, other polygons, and straight lines
 def random_shape():
-    r = random.randint(1, 6)
+    r = random.randint(1, 12)
     if r == 1:
-        create_curved_line()
-    elif r == 2:
-        create_circle()
-    elif r == 3:
-        create_triangle()
-    elif r == 4:
         create_polygon()
+    elif r <= 3:
+        create_circle()
+    elif r <= 5:
+        create_triangle()
+    elif r <= 7:
+        create_curved_line()
     else:
         create_random_line()
 
