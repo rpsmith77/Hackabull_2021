@@ -2,8 +2,7 @@
 Art should be accessible. [Approximately 5%](https://www.colourblindawareness.org/colour-blindness/) of the world 
 has some form of color blindness. Often times, when something is being designed, color blindness is not something 
 taken into consideration. The designers aren't being malicious, people are just inherently biased. My program makes 
-a conscious effort to be inclusive to people with color blindness by using a [color-blind-friendly color palette]
-(https://davidmathlogic.com/colorblind). The program randomly generates art and saves it in a .svg file. The 
+a conscious effort to be inclusive to people with color blindness by using a [color-blind-friendly color palette](https://davidmathlogic.com/colorblind). The program randomly generates art and saves it in a .svg file. The 
 background color, number of shapes, and types of shapes are all randomized. By using .svg files, the art has the 
 ability to have lossless scalability.
 ## Inspiration
