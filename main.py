@@ -3,8 +3,8 @@
     basic version
     Sources:
         https://www.geeksforgeeks.org/creating-svg-image-using-pycairo/
-    __author__ = Ryan Smith
 """
+__author__ = "Ryan Smith"
 
 import random
 from Context import setup, export
@@ -13,7 +13,10 @@ from Shapes import random_shape, random_background
 
 # Perform Shapes.py's actions
 def draw():
-    # get random background ( 1/3 white, 1/3 black, 1/3 color-blind-friendly color)
+    """
+    get random background ( 1/3 white, 1/3 black, 1/3 color-blind-friendly color)
+    """
+
     random_background()
 
     # create 20 to 50 random shapes
@@ -22,6 +25,9 @@ def draw():
 
 
 def main():
+    """
+    main
+    """
     setup(1000, 1000)
     draw()
     export()
