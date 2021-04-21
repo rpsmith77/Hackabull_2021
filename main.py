@@ -26,7 +26,7 @@ def draw():
 
 def main():
     """
-    main
+    setup, draw, and export randomly generated art
     """
     setup(1000, 1000)
     draw()
